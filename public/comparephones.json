@@ -1,0 +1,116 @@
+{
+    "comparisons": {
+        "0" : [
+            {
+                "id": "0",
+                "title" : "Apple - iphone XS Max 212 GB",
+                "image": "/img/dummy-img.jpg",
+                "price" : "980",
+                "specs" : {
+                    "size" : "5 inch",
+                    "display" : "Gorilla",
+                    "battery" : "4000 mah",
+                    "color" : "Gold, Silver, Space Gray",
+                    "model" : "MT5H2LL/A"
+                }
+            },
+            {
+                "id": "1",
+                "title" : "Samsung Galaxy Note9 212GB",
+                "image": "/img/dummy-img.jpg",
+                "price" : "780",
+                "specs" : {
+                    "size" : "5 inch",
+                    "display" : "Gorilla",
+                    "battery" : "4000 mah",
+                    "color" : "Lavender Purple, Blue",
+                    "model" : "SMN960UZPF"
+                }
+            }
+        ],
+        "1" : [
+            {
+                "id": "3",
+                "title" : "Apple - iphone XS Max 512 GB",
+                "image": "/img/dummy-img.jpg",
+                "price" : "1200",
+                "specs" : {
+                    "size" : "5 inch",
+                    "display" : "Gorilla",
+                    "battery" : "4000 mah",
+                    "color" : "Gold, Silver, Space Gray",
+                    "model" : "MT5H2LL/A"
+                }
+            },
+            {
+                "id": "4",
+                "title" : "Samsung Galaxy Note9 512GB",
+                "image": "/img/dummy-img.jpg",
+                "price" : "1080",
+                "specs" : {
+                    "size" : "5 inch",
+                    "display" : "Gorilla",
+                    "battery" : "4000 mah",
+                    "color" : "Lavender Purple, Blue",
+                    "model" : "SMN960UZPF"
+                }
+            }
+        ],
+        "3" : [
+            {
+                "id": "5",
+                "title" : "Apple - iphone XS Max 128 GB",
+                "image": "/img/dummy-img.jpg",
+                "price" : "880",
+                "specs" : {
+                    "size" : "5 inch",
+                    "display" : "Gorilla",
+                    "battery" : "4000 mah",
+                    "color" : "Gold, Silver, Space Gray",
+                    "model" : "MT5H2LL/A"
+                }
+            },
+            {
+                "id": "6",
+                "title" : "Samsung Galaxy Note9 128GB",
+                "image": "/img/dummy-img.jpg",
+                "price" : "880",
+                "specs" : {
+                    "size" : "5 inch",
+                    "display" : "Gorilla",
+                    "battery" : "4000 mah",
+                    "color" : "Lavender Purple, Blue",
+                    "model" : "SMN960UZPF"
+                }
+            }
+        ],
+        "4" : [
+            {
+                "id": "7",
+                "title" : "Apple - iphone XS Max 68 GB",
+                "image": "/img/dummy-img.jpg",
+                "price" : "760",
+                "specs" : {
+                    "size" : "5 inch",
+                    "display" : "Gorilla",
+                    "battery" : "4000 mah",
+                    "color" : "Gold, Silver, Space Gray",
+                    "model" : "MT5H2LL/A"
+                }
+            },
+            {
+                "id": "8",
+                "title" : "Samsung Galaxy Note9 68GB",
+                "image": "/img/dummy-img.jpg",
+                "price" : "720",
+                "specs" : {
+                    "size" : "5 inch",
+                    "display" : "Gorilla",
+                    "battery" : "4000 mah",
+                    "color" : "Lavender Purple, Blue",
+                    "model" : "SMN960UZPF"
+                }
+            }
+        ]
+    }
+}

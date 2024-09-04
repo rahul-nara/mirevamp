@@ -1,0 +1,14 @@
+.mainheader{position: absolute;left: 0;width: 100%;top: 0;z-index: 1000;padding: 20px 122px 20px 55px;}
+.header{position: relative;padding: 20px 122px 20px 72px;background: url('/img/header-bg.png') no-repeat;background-size: cover;}
+.header-wrap{display: flex;justify-content: space-between;align-items: center;}
+.header-logo{width: 106px;margin-right: auto;}
+.header-right-block{margin-left: auto;display: flex;justify-content: space-between;align-items: center;}
+.mb-logo{display: none;}
+
+@media screen and (max-width:1280px){
+.header, .mainheader{padding: 20px 15px;}
+}
+@media screen and (max-width:1024px){
+.desk-logo{display: none;}
+.mb-logo{display: block;}
+}
