@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import LoaderStyles from '../../../styles/pageloader.module.css';
 
-function pageLoader() {
+function PageLoader() {
       const [loading, setLoading] = useState(true);
 
       useEffect(() => {
@@ -22,4 +22,4 @@ function pageLoader() {
        );
 }
 
-export default pageLoader;
+export default PageLoader;

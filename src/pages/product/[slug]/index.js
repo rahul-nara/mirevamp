@@ -63,8 +63,8 @@ const ProductPage = (props) => {
                                         <h2>Reasons To Buy</h2>
                                         <div className={styles['reasonby-list']}>
                                             <ul>
-                                                {props.results[0].super_features[0].keys.slice(0,8).map((specitems) => (
-                                                    <li>{specitems}</li>
+                                                {props.results[0].super_features[0].keys.slice(0,8).map((specitems,i) => (
+                                                    <li key={i}>{specitems}</li>
                                                 ))
                                                 }
                                             </ul>

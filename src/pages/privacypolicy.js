@@ -1,11 +1,15 @@
 import React from "react";
 
 function PrivacyPolicy() {
+    /* eslint no-use-before-define: 0 */  // --> OFF
       return (
+
+        
             <div className="common-pg-sec">
                   <div className="common-pg-wrap">
                         <h2 className="section-heading">Privacy Policy</h2>
                         <div className="common-pg-content">
+                            
                               <p>Effective Date: December 19, 2023</p>
                               <p>Welcome to EdgeROI Inc. This Privacy Notice is provided by the Company (referred to as "we," "us," "our") to outline our practices in collecting, utilizing, protecting, and sharing your personal information. Our commitment is rooted in building a relationship with our customers based on trust and guided by fair information principles that emphasize respect for the rights and freedoms of our website visitors.</p>
                               <h3>In this Privacy Policy:</h3>
@@ -74,6 +78,7 @@ function PrivacyPolicy() {
                   </div>
             </div>
        );
+       /* eslint no-use-before-define: 2 */  // --> ON
 }
 
 export default PrivacyPolicy;
