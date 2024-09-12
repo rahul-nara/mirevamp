@@ -7,13 +7,14 @@ import ScoreLabel from "@/pages/components/common/scorelabel";
 import PopularMobiles from "@/pages/components/common/popularmobiles";
 import CompareMobiles from "@/pages/components/home/comparemobiles";
 import Link from "next/link";
+import Image from "next/image";
 
 export const ImagesBlock = (imageValue) => {
     // console.log(imageValue['images'][0].url)
     let images = imageValue['images']
     let block = Object.entries(images).map(([key, value]) => {
         return (
-            <li key={key}><img src={value.url} /></li>
+            <li key={key}><Image src={value.url} /></li>
         )
     })
     return block
@@ -34,7 +35,7 @@ const ProductPage = (props) => {
                 <div className={styles['product-detail-wrap']}>
                         <div className={styles['product-detail-left']}>
                             <figure>
-                                <img src={props.results[0].images[0].url} alt={props.results[0].title} width={214} height={431} />
+                                <Image src={props.results[0].images[0].url} alt={props.results[0].title} width={214} height={431} />
                             </figure>
                             <ScoreLabel scoreLabelClass={styles.scorelabel} scoreCount={props.results[0].specifications['sm-rating'].value} />
                         </div>
@@ -81,7 +82,7 @@ const ProductPage = (props) => {
                                 <h2>Compare Prices</h2>
                                 <div className={styles['prod-detail-compare-graph']}>
                                     <figure>
-                                        <img src="/img/compare-price-graph.svg" alt="" width={204} height={202} />
+                                        <Image src={`/img/compare-price-graph.svg`} alt="" width={204} height={202} />
                                     </figure>
                                     <div className={`${styles['prodtxt']} ${styles['prod-compare-graph-text']}`}>
                                         <span>MOST IOS CELLPHONE</span>
@@ -100,7 +101,7 @@ const ProductPage = (props) => {
                             <div className={styles['prod-detail-compare-over']}>
                                 <h2>Overall Review</h2>
                                 <div className={styles['urr-main-card']}>
-                                        <p>User Ratings and Reviews for Apple - iPhone XS 64GB that mentions "Overview" (Overall people's opinion about the phone is great)</p>
+                                        <p>User Ratings and Reviews for Apple - iPhone XS 64GB that mentions Overview (Overall people&apos;s opinion about the phone is great)</p>
                                         <div className={styles['urr-box']}>
                                             <div className={styles['urr-left-box']}>
                                                 <span className={styles['ratebase-txt']}>4.0</span>

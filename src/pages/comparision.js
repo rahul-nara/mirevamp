@@ -158,7 +158,7 @@ function Comparision() {
                                                                                     <button className={styles['closeicon']} onClick={() => removeSelectedProduct(productslug)} />
                                                                                     <div className={styles['comp-product-top']}>
                                                                                           <figure>
-                                                                                                <img src={product.image} alt={product.name} width={100} height={120} />
+                                                                                                <Image src={product.image} alt={product.name} width={100} height={120} />
                                                                                                 <ScoreLabel scoreLabelClass={styles.scorelabel} scoreCount={50} />
                                                                                           </figure>
                                                                                           <div className={styles['comp-product-top-content']}>

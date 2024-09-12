@@ -8,6 +8,7 @@ import LinkButton from "../components/common/linkButton";
 import CategoryFilter from "../components/common/categoryFilter";
 import Pagination from "../components/pagination/pagination";
 import { useRouter } from "next/router";
+import Image from "next/image";
 
 function CategoriesPage() {
    const router = useRouter();
@@ -50,7 +51,7 @@ function CategoriesPage() {
          setCurrentPage(1);
       })
       .catch((error) => console.error('Error fetching product data:', error));
-   }, []);
+   }, [filters]);
 
    const applyFilters = () => {
       let filteredProducts = [...products];
@@ -241,7 +242,7 @@ function CategoriesPage() {
                                     </div>
                                     <div className="productitem-top">
                                        <figure>
-                                          <img src={product.image} alt={product.name}  width={121} height={94} />
+                                          <Image src={product.image} alt={product.name}  width={121} height={94} />
                                        </figure>
                                        <div className="productitem-content">
                                           <h3><Link href={product.click_url}>{product.name}</Link></h3>
