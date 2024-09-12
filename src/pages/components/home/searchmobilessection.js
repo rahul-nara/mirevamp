@@ -54,7 +54,7 @@ function SearchMobilesSection({smData}) {
                                                       <div className={styles['shm-mob-card']} key={index}>
                                                             <ScoreLabel scoreLabelClass={styles.scorelabel} scoreCount={item[0].specifications['sm-rating'].value} />
                                                             <figure>
-                                                                  <img src={item[0].images[0].url} className="img-responsive" alt={item[0].title} width={354} height={336} />
+                                                                  <Image src={item[0].images[0].url} className="img-responsive" alt={item[0].title} width={354} height={336} />
                                                             </figure>
                                                             <div className={styles['shm-mob-content']}>
                                                                   <h3>{item[0].title}</h3>

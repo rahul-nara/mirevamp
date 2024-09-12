@@ -12,7 +12,7 @@ function ProductCard({cardData}) {
                   <div className={styles['prod-item-top']}>
                         <div className={styles['prod-item-top-inn']}>
                               <figure>
-                                    <img src={cardData.images[0].url}  width={121} height={94} />
+                                    <Image src={cardData.images[0].url}  width={121} height={94} alt="" />
                               </figure>
                               <Ratings ratingCount={cardData.specifications['battery-capacity'].stats.rank_bucket} />
                         </div>

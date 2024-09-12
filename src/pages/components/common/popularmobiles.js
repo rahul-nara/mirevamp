@@ -40,7 +40,7 @@ function PopularMobiles({smData}) {
                                           <div className={styles['pop-mob-card']} key={item.id}>
                                                 <Link href={`product/${item.id}`} as={`product/${item.id}`}>
                                                       <figure>
-                                                            <img src={item.images[0].url} alt={item.title} className="img-responsive" width={129} height={100} />
+                                                            <Image src={item.images[0].url} alt={item.title} className="img-responsive" width={129} height={100} />
                                                       </figure>
                                                       <div className={styles['pop-mob-card-content']}>
                                                             <Ratings ratingCount={item.specifications['battery-capacity'].stats.rank_bucket} />

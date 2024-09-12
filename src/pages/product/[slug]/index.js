@@ -14,7 +14,7 @@ export const ImagesBlock = (imageValue) => {
     let images = imageValue['images']
     let block = Object.entries(images).map(([key, value]) => {
         return (
-            <li key={key}><Image src={value.url} /></li>
+            <li key={key}><Image src={value.url} alt="" /></li>
         )
     })
     return block

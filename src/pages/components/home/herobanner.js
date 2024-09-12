@@ -50,7 +50,7 @@ function HeroBanner({smData}) {
                                           </div>
                                           <div className={styles['hero-banner-thumb']}>
                                                 <figure>
-                                                      <img src={smData[activeTab][0].images[0].url} alt={smData[activeTab][0].title} width={218} height={439} />
+                                                      <Image src={smData[activeTab][0].images[0].url} alt={smData[activeTab][0].title} width={218} height={439} />
                                                       <ScoreLabel scoreLabelClass={styles.scorelabel} scoreCount={smData[activeTab][0].specifications['sm-rating'].value} />
                                                 </figure>
                                           </div>
